@@ -1,0 +1,47 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/33/1b/a8/331ba8baf299fb5cff36e6883643b3dc.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    color: white;
+    font-size: 20px;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-family: 'Anton', sans-serif;
+}
+.headshot {
+    border-radius: 10%;
+    width: 300px;
+    height: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
+
+p {
+    color: white;
+    text-decoration: none;
+}
+
+.mid {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
+
+.aboutme {}
