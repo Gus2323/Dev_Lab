@@ -3,7 +3,6 @@ body {
     background-repeat: no-repeat;
     font-family: 'Encode Sans', sans-serif;
     text-align: center;
-    color: white;
     margin-top: 3vh;
 }
 .header{
@@ -130,4 +129,15 @@ h3{
 }
 .port{
     margin-top: 7vh;
+}
+.desc{
+    font-size: 2.7vw;
+    margin-left:15%;
+    margin-right:15%;
+    color: black;
+    background-color: white;
+    padding: 1%;
+    font-family: 'Patrick Hand', cursive;
+    box-shadow: 2px 2px 5px 3px teal;
+    border: .8vh double black;
 }
