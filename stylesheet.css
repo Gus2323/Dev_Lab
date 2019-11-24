@@ -56,6 +56,7 @@ h1{
     background-color: black;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10%;
 }
 a{
     font-family: 'Encode Sans', sans-serif;
