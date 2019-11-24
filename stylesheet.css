@@ -52,11 +52,10 @@ h1{
     z-index: 1;
     top: 0;
     left: 0;
-    overflow-x: hidden;
+    right:0;
     background-color: black;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 10%;
 }
 a{
     font-family: 'Encode Sans', sans-serif;
@@ -94,17 +93,13 @@ a{
     }
 }
 
-.container-3{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    flex-direction: row;
-}
-
-.container-1 div, .container-2 div{
+.container-2 div{
     padding:10px;
 }
-
+.container-1 div{
+    padding:10px;
+    margin-top: 5%;
+}
 .box-1{
     flex:1;
     order:1;
@@ -115,8 +110,6 @@ a{
     order:1;
 
 }
-
-
 .container-2-box{
     flex-basis: 25%;
     display: flex;
