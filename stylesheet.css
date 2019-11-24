@@ -1,10 +1,11 @@
 body {
-    background-color: black;
+    background-color: #08B3E5;
 }
 h1{
     color: white;
     font-family: 'Encode Sans', sans-serif;
     text-align: center;
+    font-size: 5vw;
 }
 
 .footer {
@@ -14,58 +15,61 @@ h1{
 }
 
 #body2{
-    background-image: linear-gradient(to bottom right, #2AF598, #22E4AC, #1BD7BB, #14C9CB, #0FBED8, #08B3E5);
+    background-image: linear-gradient(#08B3E5,#0FBED8,#14C9CB, #1BD7BB);
     background-repeat: no-repeat;
     font-family: 'Encode Sans', sans-serif;
     text-align: center;
     color: white;
 }
 .headshot {
-    border-radius: 5%;
-    border: 3px solid white;
+    border-radius: 1%;
+    border: 3px ridge white;
     width: 30%;
     margin-left:15%;
     margin-right:15%;
+    box-shadow: 5px 5px 15px 5px teal;
 }
 .icons{
     display: block;
     margin: 5px;
-    width: 80%;
+    width: 20vw;
     border-radius: 100%;
     border: 5px dotted white;
 }
 .icon-table{
-    width:70%;
+    width: 70%;
     margin-left:15%;
     margin-right:15%;
 }
 #navs{
-    text-align: center;
+    width: 100%;
     position: fixed;
     z-index: 1;
-    top: 20px;
-    left: 10px;
+    top: 0;
+    left: 0;
     overflow-x: hidden;
     background-color: black;
-    border-radius: 5%;
-    width: 20%;
-
+    display: flex;
+    justify-content: space-around;
 }
 a{
-    padding: 6px 8px 6px 16px;
-    font-size: 20px;
-    display: block;
-    color: gray;
-    margin: 5%;
-    font-size: 30px;
-    text-decoration: none;
     font-family: 'Encode Sans', sans-serif;
+    padding: 1.5vh;
+    font-size: 1vh;
+    display: block;
+    color: #AAAAAA;
+    font-size: 2.3vh;
+    text-decoration: none;
+
 }
 #navs a:hover{
     color: white;
 }
-h3{
-    width:70%;
+.text{
+    font-size: 2vw;
     margin-left:15%;
     margin-right:15%;
+}
+.main{
+    margin-top: 7vh;
 }
