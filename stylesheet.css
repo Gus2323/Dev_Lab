@@ -1,18 +1,19 @@
 body {
     background-image: linear-gradient(#08B3E5,#0FBED8,#14C9CB, #1BD7BB);
     background-repeat: no-repeat;
+    height: 100%;
 }
 .header{
     color: white;
     font-family: 'Encode Sans', sans-serif;
     text-align: center;
     font-size: 10vw;
-    margin-bottom: 0;
+    margin: 4%;
 }
 .footer {
     display: flex;
     justify-content: center;
-    flex-flow: row nowrap;
+    flex-direction: row;
 }
 
 #body2{
@@ -48,7 +49,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    right:0;
+    right: 0;
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -95,6 +96,7 @@ a{
 .box-1{
     flex:1;
     order:1;
+    margin-top: 5vh;
 }
 
 .box-2{
@@ -118,17 +120,19 @@ h3{
     margin-right: auto;
     height: 10rem;
 }
-.port{
-    height: 100vh;
-}
 .desc{
-    font-size: 2.7vw;
-    margin-left:15%;
-    margin-right:15%;
+    font-size: 2vh;
+    margin-left: 25%;
+    margin-right: 25%;
     color: black;
     background-color: white;
     padding: 1%;
     font-family: 'Patrick Hand', cursive;
     box-shadow: 2px 2px 5px 3px teal;
-    border: .8vh double black;
+    border: 8px double black;
+    display: flex;
+    justify-content: center;
+}
+.port{
+    margin-top: 5vh;
 }
