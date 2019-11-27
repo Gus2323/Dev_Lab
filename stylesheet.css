@@ -42,7 +42,7 @@ body {
     margin-right: auto;
 }
 #navs{
-    width: 100%;
+    width: 100vw;
     opacity: 0.88;
     position: fixed;
     z-index: 1;
@@ -60,7 +60,7 @@ a{
     color: #AAAAAA;
     text-decoration: none;
     justify-content: center;
-    font-size: 100%;
+    font-size: 25px;
 }
 #navs a:hover{
     color: #14C9CB;
