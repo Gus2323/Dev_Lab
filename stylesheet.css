@@ -72,7 +72,6 @@ a{
     margin-right:15%;
 }
 
-@media(min-width:468px){
     .container-1{
         display:flex;
         align-items:center;
@@ -84,14 +83,12 @@ a{
         justify-content: space-around;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-left: 15%;
+        margin-right: 15%;
     }
-}
 
 .container-2 div{
     padding: 1%;
-}
-.container-1 div{
-    padding:10px;
 }
 .box-1{
     flex:1;
@@ -121,7 +118,7 @@ h3{
     height: 10rem;
 }
 .desc{
-    font-size: 2vh;
+    font-size: 2.2vh;
     margin-left: 25%;
     margin-right: 25%;
     color: black;
@@ -130,8 +127,6 @@ h3{
     font-family: 'Patrick Hand', cursive;
     box-shadow: 2px 2px 5px 3px teal;
     border: 8px double black;
-    display: flex;
-    justify-content: center;
 }
 .port{
     margin-top: 5vh;
