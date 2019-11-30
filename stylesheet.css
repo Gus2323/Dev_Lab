@@ -7,8 +7,8 @@ body {
     color: white;
     font-family: 'Encode Sans', sans-serif;
     text-align: center;
-    font-size: 10vh;
-    margin: 4%;
+    font-size: 8vh;
+    margin-top: 8vh;
 }
 .footer {
     display: flex;
