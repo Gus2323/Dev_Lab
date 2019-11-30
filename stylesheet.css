@@ -12,8 +12,9 @@ body {
 }
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-direction: row;
+    text-align: center;
 }
 
 #body2{
@@ -136,18 +137,21 @@ h3{
 #p-rows{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .projects{
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    margin: 2%;
 }
 .projects img{
     height: auto;
-    width: 75%;
+    width: 14em;
     border: white solid .5vh;
     border-radius: 15px;
 }
