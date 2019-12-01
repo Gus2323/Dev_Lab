@@ -155,7 +155,7 @@ a{
     justify-content: space-around;
     flex-direction: column;
 }
-#contact-container p{
+.c{
     color: white;
     font-size: 2vh;
     letter-spacing: 1.5px;
