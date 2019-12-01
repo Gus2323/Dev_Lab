@@ -134,7 +134,7 @@ a{
 .projects img{
     height: 8em;
     width: 14em;
-    border: white solid .5vh;
+    border: white solid .4vh;
     border-radius: 15px;
     background-image: linear-gradient(#FFE09B, #FFC500);
     background-repeat: no-repeat;
