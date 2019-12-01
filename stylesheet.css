@@ -34,18 +34,12 @@ body {
     box-shadow: 5px 5px 15px 5px teal;
 }
 .icons{
-    display: block;
-    width: auto;
-    height: 15vh;
+    height: 15vw;
     border-radius: 100%;
     border: 5px dotted white;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 .text{
-    font-size: 1.8vh;
+    font-size: 1.8vw;
     margin-left:15%;
     margin-right:15%;
     width: auto;
@@ -86,8 +80,8 @@ a{
 
 .container-2{
     display:flex;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -99,21 +93,12 @@ a{
     order:1;
     margin-top: 5vh;
 }
-
-.box-2{
-    flex:1;
-    order:2;
-
-}
 .container-2-box{
-    flex-basis: 25%;
+    flex-basis: 40%;
+    flex-direction: column;
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
-}
-
-h3{
-    text-align: center;
+    align-items: center;
 }
 .desc{
     font-size: 2.5vh;
