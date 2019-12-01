@@ -15,6 +15,9 @@ body {
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    color: black;
+    font-family: none;
+    font-size: none;
 }
 
 #body2{
@@ -145,4 +148,22 @@ a{
     color: white;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+#contact-container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    font-size: 2vh;
+    letter-spacing: 1.5px;
+}
+.contact-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#con{
+    height: 100vh;
 }
