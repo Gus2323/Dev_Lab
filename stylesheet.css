@@ -42,7 +42,7 @@ body {
     font-size: 1.8vw;
     margin-left:15%;
     margin-right:15%;
-    width: auto;
+    text-align: center;
 }
 #navs{
     width: 100vw;
@@ -94,10 +94,8 @@ a{
     margin-top: 5vh;
 }
 .container-2-box{
-    flex-basis: 40%;
     flex-direction: column;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 }
 .desc{
