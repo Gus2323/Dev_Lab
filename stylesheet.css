@@ -166,6 +166,10 @@ a{
     flex-direction: column;
     align-items: center;
 }
+.contact-item img{
+    height: auto;
+    width: 15vh
+}
 #con{
     height: 100vh;
 }
